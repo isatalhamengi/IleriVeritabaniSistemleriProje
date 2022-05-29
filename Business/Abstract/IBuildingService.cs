@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +10,9 @@ namespace Business.Abstract
 {
     public interface IBuildingService
     {
+        IDataResult<List<Building>> GetAll();
+        IResult Add(Building building);
+        IResult Remove(Building building);
+        IResult Update(Building building);
     }
 }
