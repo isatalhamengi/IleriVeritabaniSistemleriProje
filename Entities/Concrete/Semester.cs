@@ -12,6 +12,6 @@ namespace Entities.Concrete
     {
         [Key]
         public int S_ID { get; set; }
-        public string S_Name { get; set; }
+        public string S_NAME { get; set; }
     }
 }

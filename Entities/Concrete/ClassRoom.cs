@@ -15,7 +15,7 @@ namespace Entities.Concrete
         public int B_ID { get; set; }
         public int CRT_ID { get; set; }
         public string CR_Name { get; set; }
-        public int CR_Capacity { get; set; }
+        public int CR_CAPACITY { get; set; }
         public bool Status { get; set; }
     }
 }

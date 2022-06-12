@@ -12,8 +12,8 @@ namespace Entities.Concrete
     {
         [Key]
         public int F_ID { get; set; }
-        public string F_Name { get; set; }
-        public string F_Description { get; set; }
-        public bool Status { get; set; }
+        public string F_NAME { get; set; }
+        public string F_DESCRIPTION { get; set; }
+        public bool STATUS { get; set; }
     }
 }

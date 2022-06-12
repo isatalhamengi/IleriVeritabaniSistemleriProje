@@ -12,6 +12,7 @@ namespace Entities.Concrete
     {
         [Key]
         public int T_ID { get; set; }
-        public string T_Name { get; set; }
+        public string T_NAME { get; set; }
+        public string T_SURNAME { get; set; }
     }
 }

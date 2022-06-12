@@ -15,10 +15,10 @@ namespace Entities.Concrete
         public int D_ID { get; set; }
         public int S_ID { get; set; }
         public int T_ID { get; set; }
-        public int Total_Student { get; set; }
-        public string L_Name { get; set; }
-        public DateTime L_Hour { get; set; }
-        public bool Status { get; set; }
+        public int TOTAL_STUDENT { get; set; }
+        public string L_NAME { get; set; }
+        public DateTime L_HOUR { get; set; }
+        public bool STATUS { get; set; }
 
     }
 }

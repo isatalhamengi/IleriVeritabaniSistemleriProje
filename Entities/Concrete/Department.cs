@@ -13,8 +13,8 @@ namespace Entities.Concrete
         [Key]
         public int D_ID { get; set; }
         public int F_ID { get; set; }
-        public string D_Name { get; set; }
-        public string D_Description { get; set; }
-        public bool Status { get; set; }
+        public string D_NAME { get; set; }
+        public string D_DESCRIPTION { get; set; }
+        public bool STATUS { get; set; }
     }
 }
